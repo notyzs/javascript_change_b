@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+:root[data-theme="color-a"] {
+    --color-main: orange;
+    --color-sub: gold;
+    --color-text: #000;
+}
+
+:root[data-theme="color-b"] {
+    --color-main:  green;
+    --color-sub: lightgreen;
+    --color-text: #000;
+}
+
+:root[data-theme="color-c"] {
+    --color-main: navy;
+    --color-sub: blue;
+    --color-text: #fff;
+}
+
+:root[data-theme="color-d"] {
+    --color-main:  purple;
+    --color-sub: rgb(145, 117, 145);
+    --color-text: #fff;
+}
+
+:root[data-theme="color-e"] {
+    --color-main: rgb(195, 9, 9);
+    --color-sub: rgb(197, 80, 80);
+    --color-text: #fff;
+}
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-text);
+}
+
+p {
+    background-color: var(--color-sub);
+}
